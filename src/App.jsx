@@ -1,14 +1,16 @@
 import './App.css'
 import Header from './components/header/Header'
 import Advertisements from './components/advertisements/Advertisements'
-import ContainerProducts from './components/containerProducts/containerProducts'
+import ContainerProduct from './components/containerProduct/ContainerProduct'
+import InfoStore from './components/infoStore/infoStore'
 
 function App() {
   return (
     <div className='App'>
       <Header />
       <Advertisements />
-      <ContainerProducts />
+      <ContainerProduct />
+      <InfoStore />
     </div>
   )
 }

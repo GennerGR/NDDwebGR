@@ -1,0 +1,7 @@
+.Product {
+    background: #f2fbf8;
+    width: 10em;
+    height: 10em;
+    box-shadow: #444 2px 2px;
+    border-radius: 5px;
+}

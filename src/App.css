@@ -5,14 +5,12 @@
 }
 
 body {
-  height: 100%;
   color: #1c453d;
   background: #d3f4e9;
 }
 
-/* .App {
+.App {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; 
+  justify-content: center;
 }
-*/
