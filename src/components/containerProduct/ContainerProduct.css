@@ -1,17 +1,10 @@
 .ContainerProduct {
-    width: 65%;
-    padding: 0.5em;
+    width: 40%;
+    padding: 1em 0 3em 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4px;
-}
-
-@media screen and (max-width: 400) {
-    .ContainerProduct {
-        width: 90%;
-        padding: 0em;
-    }
+    gap: 10px;
 }
 
 .categories {
@@ -21,3 +14,12 @@
     margin: 1em;
     font-size: 2em;
 }
+
+@media (max-width: 415px) {
+    .ContainerProduct {
+        width: 90%;
+        padding: 0em;
+    }
+
+}
+

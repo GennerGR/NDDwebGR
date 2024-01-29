@@ -5,24 +5,24 @@ import imagen from './img.jpeg';
 export default function Header() {
     return (
         <header>
-            <div>
-                <img id='img' src={imagen} alt="" width='50px' />
-            </div>
-            <div>
-                <p>
-                    TIENDA EN LINEA
-                </p>
-            </div>
-            <input type="text" placeholder="Texto por defecto"/>
-            <div className="about">
-                <a href="">Contactanos</a>
-                <a href="">Categorias</a>
-                <a href="">Sobre nosotros</a>
+            <div className='img-lg'>
+                <img  src={imagen} alt="logo" />
             </div>
             <div className="links">
                 <a href="">extra</a>
                 <a href="">extra</a>
             </div>
+            <div>
+                <h1 className="title">
+                    INTERNET PC TECH
+                </h1>
+            </div>
+            <div className="about">
+                <a href="">Contactanos</a>
+                <a href="">Categorias</a>
+                <a href="">Sobre nosotros</a>
+            </div>
+            <input type="text" placeholder="¿Que estas buscando?"/>
         </header>
     )
 }
