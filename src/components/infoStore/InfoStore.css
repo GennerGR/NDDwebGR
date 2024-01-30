@@ -1,6 +1,6 @@
 footer {
+    background: #203d74;
     width: 100%;
-    border: 2px solid #000;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -23,6 +23,12 @@ footer {
 
 @media (max-width: 415) {
     footer {
+        padding: 0em 1em;
         height: auto;
+    }
+
+    .footer-link {
+        width: 5em;
+        height: 5em;
     }
 }

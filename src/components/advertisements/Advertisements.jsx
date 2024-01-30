@@ -5,7 +5,7 @@ export default function Advertisements () {
     return (
         <div id="Advertisements">
             <div className="add">
-                Aquí el anuncio
+                ANUNCIO 1
             </div>
         </div>
     )

@@ -9,8 +9,8 @@ export default function Header() {
                 <img  src={imagen} alt="logo" />
             </div>
             <div className="links">
-                <a href="">extra</a>
-                <a href="">extra</a>
+                <a href="">Extra</a>
+                <a href="">Otro</a>
             </div>
             <div>
                 <h1 className="title">
