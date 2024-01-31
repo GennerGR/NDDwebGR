@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/header/Header'
 import Advertisements from './components/advertisements/Advertisements'
 import ContainerProduct from './components/containerProduct/ContainerProduct'
+import AboutSpan from './components/aboutSpan/aboutSpan'
 import InfoStore from './components/infoStore/infoStore'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className='App'>
       <Header />
       <Advertisements />
+      <AboutSpan />
       <ContainerProduct />
       <InfoStore />
     </div>

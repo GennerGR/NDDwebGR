@@ -17,7 +17,6 @@ export default function ContainerProduct () {
             <Product />
             <Product />
             <Product />
-            <Product />
         </section>
     )
 }

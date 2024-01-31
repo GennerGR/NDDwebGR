@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Oswald&display=swap');.aboutSpan {
+    background: #173161;
+    width: 100%;
+    padding: 2em 2em;
+    text-align: center;
+
+    >h1 {
+        font-family: Oswal;
+    }
+
+    >div {
+        width: 100%;
+        display: grid;
+        gap: 5px;
+        >p {
+            font-family: Oswald;
+            text-decoration-line: overline;
+            font-size: 1.1em;
+        }
+    }
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
