@@ -4,6 +4,7 @@ import Advertisements from './components/advertisements/Advertisements'
 import ContainerProduct from './components/containerProduct/ContainerProduct'
 import AboutSpan from './components/aboutSpan/aboutSpan'
 import InfoStore from './components/infoStore/infoStore'
+import '../src/assets/fnweb.jpg'
 
 function App() {
   return (

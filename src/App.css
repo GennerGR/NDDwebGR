@@ -6,7 +6,9 @@
 
 body {
   color: #dbeefe;
-  background: #172c54;
+  /* background: linear-gradient(30deg, #556fc7, #2822e2) fixed; */
+  background: linear-gradient(30deg, #2f4079, #050250) fixed;
+  background: url('../src/assets/fnweb.jpg') fixed center;
 }
 
 .App {

@@ -8,7 +8,7 @@
 
 
 .Product:hover {
-    background: #7b9cb6;
-    outline: 5px solid #000;
-    box-shadow: #bfe3fe;
+    opacity: 0.5;
+    border-bottom: #5858e7 solid 5px;
+    cursor: pointer;
 }

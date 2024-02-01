@@ -1,5 +1,5 @@
 header {
-    background: #203d74;
+    /* background: #203d74; */
     width: 100%;
     padding: 0.2em 10em 1em 10em;
 
@@ -8,6 +8,7 @@ header {
     grid-template-rows: repeat(4, 1fr);
     justify-items: center;
     align-items: center;
+    user-select: none;
 }
 
 .img-lg {
@@ -23,6 +24,12 @@ img {
 
 a {
     color:  #8fcbd1;
+    background: #5858e7; 
+    border-radius: 3px;
+    text-align: center;
+    padding: 3px;
+    margin-top: 3px;
+    text-decoration: none;
 }
 
 .about, .links {
@@ -31,14 +38,14 @@ a {
 }
 
 .about {
-    font-size: 1.2em;
-    grid-row: 3/5;
+    font-size: 1.1em;
+    grid-row: 4/5;
     grid-column: 2/4;
 }
 
 .links {
     grid-row: 4/5;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 
@@ -52,11 +59,11 @@ input {
 }
 
 div:has(h1.title) {
-    grid-row: 1/3;
+    grid-row: 1/4;
     grid-column: 2/4;
 
     >h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     }
 }
 
@@ -85,7 +92,7 @@ div:has(h1.title) {
     .about {
         grid-row: 3/4;
         grid-column: 2/6;
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     div:has(h1.title) {
@@ -102,5 +109,6 @@ div:has(h1.title) {
 
     .links {
         grid-row: 3/4;
+        font-size: 1em;
     }
 }
