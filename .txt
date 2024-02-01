@@ -1,0 +1,6 @@
+seeker whit js 
+
+let text = 'lorem 10'
+console.log(
+    text.includes('lorem');
+);
